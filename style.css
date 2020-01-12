@@ -4,6 +4,8 @@
 
 body{
     background-color: #d8d8d8;
+    font-family: 'Roboto Condensed', sans-serif;
+
 }
 
 h1 {
@@ -41,16 +43,38 @@ button {
     color: white;
     padding:10px;
     /*letter-spacing: 0.1em;*/
+    display: inline;
 }
 
 #copy {
     float: right;
     background-color: #696969;
     border: solid 1px #696969;
+    display: inline;
 }
 
 #create {
     background-color: #B22222;
     border: solid 1px #B22222;
+    display: inline;
 }
 
+input {
+    word-break: break-all;
+    overflow-wrap: break-word;
+}
+
+@media (min-width:370px) and (max-width:760px){
+    button{
+        display: block;
+    }
+    #create{
+        margin-top: 0px;
+    }
+    #copy{
+        margin-top: 10px;
+        float: left;
+    }
+    
+    
+}
