@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: gray;
+    background-color: #d8d8d8;
 }
 
 h1 {
@@ -12,7 +12,7 @@ h1 {
     padding: 5%;
 }
 .container {
-    background-color:#d3d3d3;
+    background-color:#F0f0f0;
     margin-top: 5%;
     padding-top:5px;
     padding-bottom: 20px;
@@ -20,7 +20,7 @@ h1 {
 
 .content {
     background-color: white;
-    padding:20px 20px 40px 20px;
+    padding:40px 40px 60px 40px;
     width: 100%;
     border-radius: 5px;
     

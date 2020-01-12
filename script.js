@@ -1,7 +1,7 @@
 
 function generate(){
 // user questions
-    var amount =prompt("Definite the length of your password by choosing a number between 8 and 128");
+    var amount =prompt("Define the length of your password by choosing a number between 8 and 128");
     console.log(amount);
     var special = confirm("Should your password include special characters? Click 'OK' if it should.");
     if (special===true){
@@ -60,7 +60,7 @@ function generate(){
     //password
     var password= "";
     for(var i=0; i< amount; i++){
-        password += charOptions.charAt(Math.floor(Math.random() * amount));
+        password += charOptions.charAt(Math.floor(Math.random() * charOptions.length));
     }
 
 
