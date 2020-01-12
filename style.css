@@ -33,7 +33,10 @@ h1 {
     width:100%;
     border: 1px dashed gray;
     border-radius: 10px;
-    height: 200px;
+    text-align: center;
+    word-break: break-all;
+    overflow-wrap: break-word;
+    padding-bottom: 180px;
 }
 
 
@@ -59,10 +62,6 @@ button {
     display: inline;
 }
 
-input {
-    word-break: break-all;
-    overflow-wrap: break-word;
-}
 
 @media (min-width:370px) and (max-width:760px){
     button{
