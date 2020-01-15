@@ -27,35 +27,15 @@ function generate(){
     }else {
         upperCase="";
     }
+    
 
     var charOptions= (special+num+lowerCase+upperCase);
     console.log(charOptions);
-    /*if (special===true){
-        var speChar = "!\"#$%&'()*+,-./:;<=>?@[]^_`{|}~";
-    } else{
-        speChar= "";
-    }
 
-    if(num===true){
-        var numChar ="1234567890";
-    }else{
-        numChar="";
+    // Alert if no character type was selected
+    if (charOptions===""){
+        alert("You have to select at least one character type to generate a password! Click GENERATE PASSWORD again and select one or more character types!");
     }
-
-    if(lowerCase===true){
-        var lowChar ="abcdefghijklmnopqrstuvwxyz";
-    } else {
-        lowChar="";
-    }
-
-    if(upperCase===true){
-        var upChar= "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    }else {
-        upChar="";
-    }
-
-    //Summary of User Answers
-    var charOptions= speChar+numChar+lowChar+upChar;*/
 
     //password
     var password= "";
@@ -65,10 +45,12 @@ function generate(){
 
 
     console.log(password);
+
     //display password
     document.getElementById('display').value =password;
 
 }
+
 
 //clipboard copy
 function copy(){
