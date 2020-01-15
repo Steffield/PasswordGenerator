@@ -15,7 +15,7 @@ The application sends in alert, if the user did not select any character type.
 When all prompts are answered, a password matching the answered prompts will be displayed. The use has the option to copy their password to their clipboard.
 
 
-Link to the deplayed GitHub Pages URL: https://steffield.github.io/PasswordGenerator/
+Link to the deployed GitHub Pages URL: https://steffield.github.io/PasswordGenerator/
 
 Screenshot of the application:
 <img src="PG-screenshot.png" width= "50%">
