@@ -16,3 +16,6 @@ When all prompts are answered, a password matching the answered prompts will be 
 
 
 Link to the deplayed GitHub Pages URL: https://steffield.github.io/PasswordGenerator/
+
+Screenshot of the application:
+<img src="PG-screenshot.png" width= "50%">
